@@ -1,0 +1,5 @@
+#include "../includes/lista_encadeada.h"
+
+void fechar(){
+	printf("\n\n\t\tSistema bancário FECHADO!\n\n");
+}

@@ -1,0 +1,2 @@
+main: includes/comum.h includes/lista.h sources/lista.c sources/arv_bin_busca.c sources/menuPrincipal.c sources/menuCliente.c sources/menuAdmin.c sources/cliente.c sources/admin.c sources/fechar.c sources/abrirArquivo.c sources/fecharArquivo.c
+	gcc -o newBanco ./includes/comum.h ./includes/lista.h ./sources/lista.c ./sources/arv_bin_busca.c ./sources/menuPrincipal.c ./sources/menuCliente.c ./sources/menuAdmin.c ./sources/cliente.c ./sources/admin.c ./sources/fechar.c ./sources/abrirArquivo.c ./sources/fecharArquivo.c -Wall
